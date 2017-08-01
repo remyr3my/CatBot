@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE7D1BD1F307CA0007B9D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE7D1BC1F307CA0007B9D5F /* main.m */; };
+		EDE7D1C01F307CA0007B9D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE7D1BF1F307CA0007B9D5F /* AppDelegate.m */; };
+		EDE7D1C31F307CA0007B9D5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE7D1C21F307CA0007B9D5F /* ViewController.m */; };
+		EDE7D1C61F307CA0007B9D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE7D1C41F307CA0007B9D5F /* Main.storyboard */; };
+		EDE7D1C81F307CA0007B9D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE7D1C71F307CA0007B9D5F /* Assets.xcassets */; };
+		EDE7D1CB1F307CA0007B9D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE7D1C91F307CA0007B9D5F /* LaunchScreen.storyboard */; };
+		EDE7D1D61F307CA0007B9D5F /* CatBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE7D1D51F307CA0007B9D5F /* CatBotTests.m */; };
+		EDE7D1E11F307CA0007B9D5F /* CatBotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE7D1E01F307CA0007B9D5F /* CatBotUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE7D1D21F307CA0007B9D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE7D1B01F307CA0007B9D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE7D1B71F307CA0007B9D5F;
+			remoteInfo = CatBot;
+		};
+		EDE7D1DD1F307CA0007B9D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE7D1B01F307CA0007B9D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE7D1B71F307CA0007B9D5F;
+			remoteInfo = CatBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE7D1B81F307CA0007B9D5F /* CatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE7D1BC1F307CA0007B9D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE7D1BE1F307CA0007B9D5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDE7D1BF1F307CA0007B9D5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDE7D1C11F307CA0007B9D5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDE7D1C21F307CA0007B9D5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDE7D1C51F307CA0007B9D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE7D1C71F307CA0007B9D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE7D1CA1F307CA0007B9D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE7D1CC1F307CA0007B9D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE7D1D11F307CA0007B9D5F /* CatBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE7D1D51F307CA0007B9D5F /* CatBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatBotTests.m; sourceTree = "<group>"; };
+		EDE7D1D71F307CA0007B9D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE7D1DC1F307CA0007B9D5F /* CatBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE7D1E01F307CA0007B9D5F /* CatBotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatBotUITests.m; sourceTree = "<group>"; };
+		EDE7D1E21F307CA0007B9D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE7D1B51F307CA0007B9D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D1CE1F307CA0007B9D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D1D91F307CA0007B9D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE7D1AF1F307CA0007B9D5F = {
+			isa = PBXGroup;
+			children = (
+				EDE7D1BA1F307CA0007B9D5F /* CatBot */,
+				EDE7D1D41F307CA0007B9D5F /* CatBotTests */,
+				EDE7D1DF1F307CA0007B9D5F /* CatBotUITests */,
+				EDE7D1B91F307CA0007B9D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE7D1B91F307CA0007B9D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7D1B81F307CA0007B9D5F /* CatBot.app */,
+				EDE7D1D11F307CA0007B9D5F /* CatBotTests.xctest */,
+				EDE7D1DC1F307CA0007B9D5F /* CatBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE7D1BA1F307CA0007B9D5F /* CatBot */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7D1BE1F307CA0007B9D5F /* AppDelegate.h */,
+				EDE7D1BF1F307CA0007B9D5F /* AppDelegate.m */,
+				EDE7D1C11F307CA0007B9D5F /* ViewController.h */,
+				EDE7D1C21F307CA0007B9D5F /* ViewController.m */,
+				EDE7D1C41F307CA0007B9D5F /* Main.storyboard */,
+				EDE7D1C71F307CA0007B9D5F /* Assets.xcassets */,
+				EDE7D1C91F307CA0007B9D5F /* LaunchScreen.storyboard */,
+				EDE7D1CC1F307CA0007B9D5F /* Info.plist */,
+				EDE7D1BB1F307CA0007B9D5F /* Supporting Files */,
+			);
+			path = CatBot;
+			sourceTree = "<group>";
+		};
+		EDE7D1BB1F307CA0007B9D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7D1BC1F307CA0007B9D5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDE7D1D41F307CA0007B9D5F /* CatBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7D1D51F307CA0007B9D5F /* CatBotTests.m */,
+				EDE7D1D71F307CA0007B9D5F /* Info.plist */,
+			);
+			path = CatBotTests;
+			sourceTree = "<group>";
+		};
+		EDE7D1DF1F307CA0007B9D5F /* CatBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7D1E01F307CA0007B9D5F /* CatBotUITests.m */,
+				EDE7D1E21F307CA0007B9D5F /* Info.plist */,
+			);
+			path = CatBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE7D1B71F307CA0007B9D5F /* CatBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE7D1E51F307CA0007B9D5F /* Build configuration list for PBXNativeTarget "CatBot" */;
+			buildPhases = (
+				EDE7D1B41F307CA0007B9D5F /* Sources */,
+				EDE7D1B51F307CA0007B9D5F /* Frameworks */,
+				EDE7D1B61F307CA0007B9D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatBot;
+			productName = CatBot;
+			productReference = EDE7D1B81F307CA0007B9D5F /* CatBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE7D1D01F307CA0007B9D5F /* CatBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE7D1E81F307CA0007B9D5F /* Build configuration list for PBXNativeTarget "CatBotTests" */;
+			buildPhases = (
+				EDE7D1CD1F307CA0007B9D5F /* Sources */,
+				EDE7D1CE1F307CA0007B9D5F /* Frameworks */,
+				EDE7D1CF1F307CA0007B9D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE7D1D31F307CA0007B9D5F /* PBXTargetDependency */,
+			);
+			name = CatBotTests;
+			productName = CatBotTests;
+			productReference = EDE7D1D11F307CA0007B9D5F /* CatBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE7D1DB1F307CA0007B9D5F /* CatBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE7D1EB1F307CA0007B9D5F /* Build configuration list for PBXNativeTarget "CatBotUITests" */;
+			buildPhases = (
+				EDE7D1D81F307CA0007B9D5F /* Sources */,
+				EDE7D1D91F307CA0007B9D5F /* Frameworks */,
+				EDE7D1DA1F307CA0007B9D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE7D1DE1F307CA0007B9D5F /* PBXTargetDependency */,
+			);
+			name = CatBotUITests;
+			productName = CatBotUITests;
+			productReference = EDE7D1DC1F307CA0007B9D5F /* CatBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE7D1B01F307CA0007B9D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ios dev 4";
+				TargetAttributes = {
+					EDE7D1B71F307CA0007B9D5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YZ5JM7ZWEG;
+						ProvisioningStyle = Automatic;
+					};
+					EDE7D1D01F307CA0007B9D5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YZ5JM7ZWEG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE7D1B71F307CA0007B9D5F;
+					};
+					EDE7D1DB1F307CA0007B9D5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YZ5JM7ZWEG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE7D1B71F307CA0007B9D5F;
+					};
+				};
+			};
+			buildConfigurationList = EDE7D1B31F307CA0007B9D5F /* Build configuration list for PBXProject "CatBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE7D1AF1F307CA0007B9D5F;
+			productRefGroup = EDE7D1B91F307CA0007B9D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE7D1B71F307CA0007B9D5F /* CatBot */,
+				EDE7D1D01F307CA0007B9D5F /* CatBotTests */,
+				EDE7D1DB1F307CA0007B9D5F /* CatBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE7D1B61F307CA0007B9D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE7D1CB1F307CA0007B9D5F /* LaunchScreen.storyboard in Resources */,
+				EDE7D1C81F307CA0007B9D5F /* Assets.xcassets in Resources */,
+				EDE7D1C61F307CA0007B9D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D1CF1F307CA0007B9D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D1DA1F307CA0007B9D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE7D1B41F307CA0007B9D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE7D1C31F307CA0007B9D5F /* ViewController.m in Sources */,
+				EDE7D1C01F307CA0007B9D5F /* AppDelegate.m in Sources */,
+				EDE7D1BD1F307CA0007B9D5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D1CD1F307CA0007B9D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE7D1D61F307CA0007B9D5F /* CatBotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D1D81F307CA0007B9D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE7D1E11F307CA0007B9D5F /* CatBotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE7D1D31F307CA0007B9D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE7D1B71F307CA0007B9D5F /* CatBot */;
+			targetProxy = EDE7D1D21F307CA0007B9D5F /* PBXContainerItemProxy */;
+		};
+		EDE7D1DE1F307CA0007B9D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE7D1B71F307CA0007B9D5F /* CatBot */;
+			targetProxy = EDE7D1DD1F307CA0007B9D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE7D1C41F307CA0007B9D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE7D1C51F307CA0007B9D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE7D1C91F307CA0007B9D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE7D1CA1F307CA0007B9D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE7D1E31F307CA0007B9D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE7D1E41F307CA0007B9D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE7D1E61F307CA0007B9D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CatBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CatBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDE7D1E71F307CA0007B9D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CatBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CatBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDE7D1E91F307CA0007B9D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CatBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CatBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatBot.app/CatBot";
+			};
+			name = Debug;
+		};
+		EDE7D1EA1F307CA0007B9D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CatBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CatBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatBot.app/CatBot";
+			};
+			name = Release;
+		};
+		EDE7D1EC1F307CA0007B9D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CatBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CatBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CatBot;
+			};
+			name = Debug;
+		};
+		EDE7D1ED1F307CA0007B9D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CatBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CatBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CatBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE7D1B31F307CA0007B9D5F /* Build configuration list for PBXProject "CatBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE7D1E31F307CA0007B9D5F /* Debug */,
+				EDE7D1E41F307CA0007B9D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE7D1E51F307CA0007B9D5F /* Build configuration list for PBXNativeTarget "CatBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE7D1E61F307CA0007B9D5F /* Debug */,
+				EDE7D1E71F307CA0007B9D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE7D1E81F307CA0007B9D5F /* Build configuration list for PBXNativeTarget "CatBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE7D1E91F307CA0007B9D5F /* Debug */,
+				EDE7D1EA1F307CA0007B9D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE7D1EB1F307CA0007B9D5F /* Build configuration list for PBXNativeTarget "CatBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE7D1EC1F307CA0007B9D5F /* Debug */,
+				EDE7D1ED1F307CA0007B9D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE7D1B01F307CA0007B9D5F /* Project object */;
+}
